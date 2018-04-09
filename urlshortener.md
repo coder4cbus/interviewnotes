@@ -1,0 +1,7 @@
+# URL Shortening Service
+
+For shortening the URLs, I could design an algorithm that takes the input long URL and uses a hashing function to generate a unique sequence of letters and numbers to append to the shortened link to give it a uniqueness. I would create a database that stores adds this unique short URL as the key and stores the original input as the value, such that any visit to the short URL has constant time lookup to the long URL and executes an automatic redirect, providing the expanded URL. 
+
+The scalability issue here is that the hashing needs to be robust enough to handle a high number of users. If numbers, and lowercase and capital letters are used, that provides 62 possible characters at every position in the hash. Therefore, the first 62 users can each have a single digit URL extension, afterwords the introduction of a second slot in the URL length creates 62 new options for each of the original 62 (3844). The third creates another 62 options for each of those (238, 328) and so on. It becomes quite easy to create many options. Once you get to 6 or 7 digits there are already trillions of ids, and should we eventually need more it is easy to simply add an extra digit. 
+
+We could also implement caching system to make it simple to look up popular links without having to actually check the database, it is also not necessary to use a SQL structure, since all we are storing are the hash and the original link. 
