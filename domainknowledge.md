@@ -68,10 +68,20 @@ Although JavaScript is not strictly speaking a functional language because it al
   - I am not sure what dynamically and statically typed languages are. 
 # Give a brief analogy explaining how computer memory works to a beginning programmer.
   * (No more than a couple of paragraphs, max, please.)
-  Memory is a temporary storage space with values and references to those values that the computer has random access to. You can think of it like a bunch of items in a room and each one has a tag. If the tag to an item is removed, that item is now impossible to find, and eventually it will be automatically garbage collected. 
+  - Memory is a temporary storage space with values and references to those values that the computer has random access to. You can think of it like a bunch of items in a room and each one has a tag. If the tag to an item is removed, that item is now impossible to find, and eventually it will be automatically garbage collected. 
 
-# Using official terminology, summarize how Promises work in JS. *
-Some terms to use: pending, fulfilled, rejected, resolve, reject, then, catch, all. Cover how chaining/sequencing promises works.
+# Using official terminology, summarize how Promises work in JS. 
+* Some terms to use: pending, fulfilled, rejected, resolve, reject, then, catch, all. 
+* Cover how chaining/sequencing promises works.
+
+- In JavaScript promises allow you to more elegantly handle asynchronous code by remembering and passing around an IOU for a particular asynchronous function. When an asynchronous function is executed, the promise is a type of object that has a status of pending until the action is finished. When the action is done it is considered fulfilled, and will be either rejected or resolved depending on if there is a failure or success. 
+
+- Even though you don't know when the promise will be fulfilled, you can set up a scenario in a "then" which specifices what will happen when a promise resolves, and a "catch" when the promise is rejected. You can also collect promises and run a .all which executes something when all the promises resolve. You can also chain promises together in a sequence of thens. 
+
+
+
+
+
 What's an IIFE in JS? When would you use it? *
 Hint: IIFE is short for "Immediately Invoked Function Expression".
 From memory, write the one-liner that determines if a given string is a palindrome. *
