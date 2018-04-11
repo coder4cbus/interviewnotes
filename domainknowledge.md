@@ -62,7 +62,10 @@ Although JavaScript is not strictly speaking a functional language because it al
 # Practically speaking, what's a "declarative" language? *
   * What's a popular example of one?
   A declarative language is one that describes the what without describing the how. It is a generally higher level language form which ignores implementation details. An example might be SQL query language. 
-# Is JavaScript statically or dynamically typed? Is JavaScript strongly typed or loosely typed? What do those terms mean? *
+# Is JavaScript statically or dynamically typed? Is JavaScript strongly typed or loosely typed? What do those terms mean?
+  - Javascript is loosely typed because it does not enforce value types, but rather employes type coercion when there is ambiguity. TypeScript came a long to change that and convert JavaScript into a strongly typed language. 
+
+  - I am not sure what dynamically and statically typed languages are. 
 # Give a brief analogy explaining how computer memory works to a beginning programmer.
   * (No more than a couple of paragraphs, max, please.)
 Using official terminology, summarize how Promises work in JS. *
