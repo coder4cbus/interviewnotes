@@ -39,15 +39,29 @@ BST
 ## When using git, what exactly do people mean when they talk about "the SHA-1"? 
 
   - I'm not sure of the answer to this, but I believe SHA-1 refers to the specific hashing function that generates unique commit references. 
-  
+
 ## How is that related to how git works?
+
+  - I'm not sure how this is related to how git works, it must be some kind of way to make sure to save unique commits but also have connections between hashes to indicate that they belong to the same branch. 
+
 ## Practically speaking, how does git rebase function compared to git merge? 
+  - Git rebase is different from git merge in that git rebase actually rewrites the commit history of a branch, essentially going back in time to move all the commits from one branch onto the commits of another, and reset the top commit as if it had been committed after the other commits. Git merge does not rewrite the commit history, but simply merges two commits directly, preserving commit histories. 
+
 ## Present a quick overview of TDD.
- * What are the proposed benefits? How popular is it, really? 
+ * What are the proposed benefits? How popular is it, really 
  * What are the arguments against it?
-# Is JavaScript a functional language? What does it mean for a language to be "functional"? *
+
+  TDD is the practice of writing your tests before you write the code. The proposed benefits are that it is easier to maintain clear modular code by forcing yourself to write success and fail cases and clear input/outputs for each function. Probably more popular in theory than in practice, and maybe not as useful when developing prototype from scratch, but for the second iteration maybe more so. 
+
+  Arguments against it are that it slows you down, and could potentially create unnecessary work, because functions and their use can evolve, and so you might write a test for something, and then implement the code and realize that it should actually do something differnet, and so you have to then rewrite the test, whereas if you write the test after you would save yourself that wasted work. 
+# Is JavaScript a functional language? What does it mean for a language to be "functional"? 
+
+Although JavaScript is not strictly speaking a functional language because it also makes use of object oriented programming techniques, inheritance, and state, it nevertheless can be used as a functional programming language. It might be considered multi-paradigm. It is functional in the sense that you can use it imperatively, meaning that you can write code that does not make use of state or classes but rather is a serious of pure functions that pass around parameters and make changes to them. 
+
+
 # Practically speaking, what's a "declarative" language? *
   * What's a popular example of one?
+  A declarative language 
 # Is JavaScript statically or dynamically typed? Is JavaScript strongly typed or loosely typed? What do those terms mean? *
 # Give a brief analogy explaining how computer memory works to a beginning programmer.
   * (No more than a couple of paragraphs, max, please.)
