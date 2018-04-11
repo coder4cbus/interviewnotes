@@ -5,6 +5,37 @@
 ## What is the average and worst-case time complexity of access, search, and insertion for common data structures? 
  * For each answer, briefly explain why.
  * Cover these data structures: array, queue, stack, singly-linked list, hash table, BST.
+
+Array:
+  - Arrays have linear access, because when you remove something you need to shift everything over. 
+  - Search is constant time, since you can do array math to find any index. 
+  - Array insertion can be constant if it doesn't matter where it goes, but if it does matter, it is linear since you will need to shift all the other items over. 
+
+Queue
+  - Access is constant for the element that is first in the queue, but would be linear otherwise. 
+  - Search is linear since you would have to pull out and replace the elements
+  - Insertion is constant since elements are just added to the end of the queue
+
+Stack
+  - Access is constant for the element at the top of the stack, linear otherwise
+  - Search is linear since you would have to pop off items and push them back on
+  - Insertion is constant since you just append items to the top of the stack
+
+Singly-Linked List
+  - Access is constant since you can just reroute nearby elements
+  - Search is linear since you have to work through to find something
+  - Insertion is constant since you can just add to the tail
+
+Hash Table
+  - Access is constant since you can simply remove a property
+  - Search is constant since you have a key value relationship
+  - Insertion is constant 
+
+BST 
+  - Access is at worst linear since you have to rebalance
+  - Search is logrithmic 
+  - Insertion is constant 
+
 ## When using git, what exactly do people mean when they talk about "the SHA-1"? 
 ## How is that related to how git works?
 ## Practically speaking, how does git rebase function compared to git merge? 
