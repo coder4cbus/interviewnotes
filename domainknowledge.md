@@ -37,6 +37,9 @@ BST
   - Insertion is constant 
 
 ## When using git, what exactly do people mean when they talk about "the SHA-1"? 
+
+  - I'm not sure of the answer to this, but I believe SHA-1 refers to the specific hashing function that generates unique commit references. 
+  
 ## How is that related to how git works?
 ## Practically speaking, how does git rebase function compared to git merge? 
 ## Present a quick overview of TDD.
