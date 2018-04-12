@@ -84,7 +84,8 @@ Although JavaScript is not strictly speaking a functional language because it al
   - An IFFE is a function that is declared and invoked immediately after it is declared, meaning that it if you are only going to use it once you don't need to store the function itself in memory, just the result of the function.
 
 
-## From memory, write the one-liner that determines if a given string is a palindrome. *
+## From memory, write the one-liner that determines if a given string is a palindrome.
+  - string === string.split('').reverse().join('') ? true : false
 
 
 ## From memory, write the one-liner that generates a random number between two given integers. *
