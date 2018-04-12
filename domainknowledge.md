@@ -91,6 +91,8 @@ Although JavaScript is not strictly speaking a functional language because it al
 ## From memory, write the one-liner that generates a random number between two given integers. *
 Two lines, rather: Offer variants where the last number is excluded versus included in the range of possible output.
 
+  - Math.floor(first num + Math.random() * )
+
 ## From memory, write the short function to shuffle a deck of cards with complete randomness. *
 Hint: You should know the Fisher-Yates shuffle. You shouldn't be deriving random shuffles on the fly, as it will slow you down when doing card-game type problems.
 
