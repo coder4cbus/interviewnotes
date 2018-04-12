@@ -49,3 +49,14 @@ If you send your application not through the portal. Send your cover letter as t
 Try hired, put years of experience as at least 2, minimum salary that is real.
 
 Make use of outcomes office hours
+
+LinkedIn
+
+Use accomplishments and outcomes
+Make projects clear that they are not companies. 
+Include projects in your summary section
+Include pics and screencasts of your projects in your summary 
+
+Can put resume in the summary section
+
+Add - Looking for new opportunities
