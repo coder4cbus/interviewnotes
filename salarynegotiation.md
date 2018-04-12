@@ -37,13 +37,78 @@
     - if you say the large number first
       - anchoring is a cognitive bias, rely too heavily on the first piece of information to anchor the decisions
       - this is a negotiation technique not a conversation technique 
+    - don't freak out about low offers, that is time to negotiate
+  - How do you respond if asked to give a number 
+    - make $1M expectation joke
+    - what is the salary range for this position
+    - i'd love to talk about that further down the road
+    - we don't know enough yet 
+    - i don't know enough about the role
+- worthwhile to check glass door
+- if the pressure is on to get a first number
+  - acknowledge their position and politely repeat your answer using different words
+  - "i completely understand where you're coming from, but like i said i'm more interested in what companies are offering across the market"
+  - it is illegal to ask about current/previous salary
+  - "i'd prefer not to say what my urrent salary is because if it's higher than what you expect to pay for this job, I owuldn't want that to eliminate me from being considered for this job -- because I might be willing to accept less for the right position-- and if it's lower than what this job would pay, I wouldn't want to sell myself short either -- I'm sure you can understand
+  - if the application asks for desired salary, enter 0 and explain later, or put in "negotiable"
+  - common sense, phd versus restaurant manager, two different roles, versions of experience
+- USE YOUR OWN WORDS
 
 ### Talking numbers
 
-### offers
+### Offers
+
+- The flinch
+  - repeat the number, think audibly, pause for 3 seconds
+  - if they sit through the silence, with any important career decision i'd like to see it in writing and sleep on it for a night or two...
+  - that delay is an extended flinch
+
+- we don't negotiate means we are bad at negotiating
+
+- offer will have a number
+- get it in writing
+- if you say the number first it is hard to negotiate from that
+- you may wish to counter initial offer
+  - if you do, go as high as your stomach will allow
+  - ask for everything you want in the first offer (vacation, remote, etc)
+- offers are almost never rescinded
+
+#### do your homework
+- research salary range, glassdoor, salary.com, payscale.com, indeed.com 
+- larger companies typically pay around the market rate
+- smaller companies can vary (low or high)
+- set a walk away baseline number
+- don't walk away until you've tried to negotiate the offer
+- average out your expenses from the past few months, add 10% 
+- respond with a specific number as a baseline
+  - $105,450 is better than $105,000
+  - shows that you have done some research, percentage of market avg
+- shoot for the upper end of the market rate
+
+#### is it an offer?
+- trial employment periods
+- build app as coding challenge
+- we don't have enough money to pay you but great opportunity or equity
+- these all have inherent disadvantages 
 
 ### Equity
+- you own part of the comapny
+- share in company's gains
+- equity varies dramatically between companies
+- investing time
+- understand the risk
+
+### Homework on Equity
+- is there an exit strategy
+- plan to sell? take company publi?
+- perscentage of hownership
+  - employee equity pool normally 10-20% of total 
+  - what's the company's value
+- stock options or restricted stock
+- what's vesting schedule
+- when can i sell
 
 ### Takeaways
 - Always talk to your couch before and during offers
-- 
+- negotiating is about your value and a good investment, not that you 'need the money'
+- keep applying until you accept a written offer
