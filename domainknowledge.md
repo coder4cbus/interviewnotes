@@ -91,16 +91,22 @@ Although JavaScript is not strictly speaking a functional language because it al
 ## From memory, write the one-liner that generates a random number between two given integers. *
 Two lines, rather: Offer variants where the last number is excluded versus included in the range of possible output.
 
-  - Math.floor(first num + Math.random() * )
+  - Math.floor(Math.Random() * (max - min) + min)
 
 ## From memory, write the short function to shuffle a deck of cards with complete randomness. *
 Hint: You should know the Fisher-Yates shuffle. You shouldn't be deriving random shuffles on the fly, as it will slow you down when doing card-game type problems.
+  - ...
 
 ## From memory, write the shortest code snippet in JS for cloning an array. *
 Hint: it's only about 8 characters long including punctuation.
+  - 
 
-## From memory, write a code snippet that binary-searches an array. *
+## From memory, write a code snippet that binary-searches an array.
+  - check center, if greather go right, else go left, repeat
 ## From memory, write code snippets for BFS and DFS of a BST. *
+  - dfs - recurse on children until no children
+  - bfs - keep array queue of children, recurse on each item
 ## From memory, write 3 code snippets that do: pre-order, in-order, and post-order traversal of a BST. *
+  - 
 ## What does it mean for coding to be "idiomatic"? Give one example of idiomatic vs non-idiomatic coding in JavaScript. *
 ## There is overhead to sending a request to another machine over the network. Make a (simple) quantitative argument re why it's still often faster to fetch data from Redis vs not using it. *
