@@ -16,3 +16,5 @@ Code Explanation:
   * does item fit?
   * waht is the max value if we don't include item (check previous row)
   * what is the max value if we do include the item (value of item + previous max value @ (max weight - item weight))
+- Try writing a similar example for coinSums!!! 
+- Robbing houses, wine, other dynamic programming classic examples.
