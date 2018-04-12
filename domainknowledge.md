@@ -107,6 +107,8 @@ Hint: it's only about 8 characters long including punctuation.
   - dfs - recurse on children until no children
   - bfs - keep array queue of children, recurse on each item
 ## From memory, write 3 code snippets that do: pre-order, in-order, and post-order traversal of a BST. *
+  - ??
+## What does it mean for coding to be "idiomatic"? Give one example of idiomatic vs non-idiomatic coding in JavaScript.
   - 
-## What does it mean for coding to be "idiomatic"? Give one example of idiomatic vs non-idiomatic coding in JavaScript. *
-## There is overhead to sending a request to another machine over the network. Make a (simple) quantitative argument re why it's still often faster to fetch data from Redis vs not using it. *
+## There is overhead to sending a request to another machine over the network. Make a (simple) quantitative argument re why it's still often faster to fetch data from Redis vs not using it.
+  - 
